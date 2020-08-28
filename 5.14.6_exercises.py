@@ -22,6 +22,6 @@ def grade(m):
 
 mark_list = [3, 56, 78, 35, 74, 23, 53, 72, 94, 23, 45, 67, 39, 76]
 
-for i in range(len(mark_list)):
-    print("Your mark was", mark_list[i], "Your grade was a", grade(mark_list[i]))
+for mark in mark_list:
+    print("Your mark was", mark, "Your grade was a", grade(mark))
 
